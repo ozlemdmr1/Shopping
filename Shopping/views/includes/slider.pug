@@ -1,0 +1,16 @@
+.carousel.slide(id="mySlider" data-ride="carousel")
+    ol.carousel-indicators
+        li(data-target="mySlide" data-slide-to="0").active
+        li(data-target="mySlide" data-slide-to="1")
+        li(data-target="mySlide" data-slide-to="2")
+    .carousel-inner
+        .carousel-item.active
+            img(src="/resim/resim_1.jpeg" alt="").d-block.img-fluid
+        .carousel-item
+            img(src="/resim/resim_2.jpeg" alt="").d-block.img-fluid
+        .carousel-item
+            img(src="/resim/resim_3.jpeg" alt="").d-block.img-fluid
+    a(href="#mySlider").carousel-control-prev(data-slide="prev")
+        span.carousel-control-prev-icon
+    a(href="#mySlider").carousel-control-next(data-slide="next")
+        span.carousel-control-next-icon
